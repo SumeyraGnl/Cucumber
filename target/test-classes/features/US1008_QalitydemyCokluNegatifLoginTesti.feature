@@ -11,10 +11,12 @@
       When login butonuna basar
       Then giris yapilamadigini test eder
 
-
       Examples:
-        | email        | password |
-        |abc@gmail.com | 12345    |
-        |def@gmail.com | 23157    |
-        |ghk@gmail.com | 98310    |
-        |mln@gmail.com | 32981    |
+        | email | password|
+        |abc@gmail.com|12345|
+        |def@gmail.com|23157|
+        |ghk@gmail.com|98310|
+
+
+
+

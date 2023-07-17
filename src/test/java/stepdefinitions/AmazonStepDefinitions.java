@@ -15,11 +15,13 @@ public class AmazonStepDefinitions {
 
     @Given("Kullanici amazon anasayfaya gider")
     public void kullanici_amazon_anasayfaya_gider() {
+
         Driver.getDriver().get(ConfigReader.getProperty("amazonUrl"));
     }
 
     @When("Nutella icin arama yapar")
     public void nutella_icin_arama_yapar() {
+
         amazonPage.aramaKutusu.sendKeys("Nutella" + Keys.ENTER);
     }
     @Then("Arama sonuclarinin Nutella icerdigini test eder")
@@ -35,6 +37,7 @@ public class AmazonStepDefinitions {
 
     @When("Java icin arama yapar")
     public void java_icin_arama_yapar() {
+
         amazonPage.aramaKutusu.sendKeys("Java" + Keys.ENTER);
     }
     @Then("Arama sonuclarinin Java icerdigini test eder")

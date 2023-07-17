@@ -1,15 +1,56 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="Cucumber" time="16.89" tests="1" skipped="0" failures="0" errors="0">
-<testcase classname="US1009 Kullanici Automation Exercise sayfasinda yeni kullanici olusturur" name="TC15 Kullanici kendi bilgileriyle yeni kullanici olusturabilmeli" time="16.82">
+<testsuite name="Cucumber" time="64.498" tests="6" skipped="0" failures="0" errors="0">
+<testcase classname="US1017_Services icerik testi" name="TC03 International Tour ogesinin aktif oldugunu test edebilmeli" time="11.126">
 <system-out><![CDATA[
-Given Kullanici "aeUrl" anasayfaya gider....................................passed
-And user sign up linkine tiklar.............................................passed
-And 2 saniye bekler.........................................................passed
-And user Create an account bolumune name ve email adresi girer..............passed
-And signUp butonuna basar...................................................passed
-And user kisisel bilgilerini ve iletisim bilgilerini girer..................passed
-And user Create Account butonuna basar......................................passed
-Then hesap olustugunu test edin.............................................passed
+Given Kullanici "trpwayUrl" anasayfaya gider................................passed
+When Services sekmesine tiklar..............................................passed
+When Kullanici "International Tour" sekmesine tiklar........................passed
+When Kullanici "International Tour" sekmesinin aktif oldugunu test eder.....passed
+And Sayfayi kapatir.........................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="US1017_Services icerik testi" name="TC04 Adventure Tour ogesinin aktif oldugunu test edebilmeli" time="10.9">
+<system-out><![CDATA[
+Given Kullanici "trpwayUrl" anasayfaya gider................................passed
+When Services sekmesine tiklar..............................................passed
+When Kullanici "Adventure Tour" sekmesine tiklar............................passed
+When Kullanici "Adventure Tour" sekmesinin aktif oldugunu test eder.........passed
+And Sayfayi kapatir.........................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="US1017_Services icerik testi" name="TC05 Culture Tour ogesinin aktif oldugunu test edebilmeli" time="11.006">
+<system-out><![CDATA[
+Given Kullanici "trpwayUrl" anasayfaya gider................................passed
+When Services sekmesine tiklar..............................................passed
+When Kullanici "Culture Tour" sekmesine tiklar..............................passed
+When Kullanici "Culture Tour" sekmesinin aktif oldugunu test eder...........passed
+And Sayfayi kapatir.........................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="US1017_Services icerik testi" name="TC06 Bussiness Tour ogesinin aktif oldugunu test edebilmeli" time="10.317">
+<system-out><![CDATA[
+Given Kullanici "trpwayUrl" anasayfaya gider................................passed
+When Services sekmesine tiklar..............................................passed
+When Kullanici "Bussiness Tour" sekmesine tiklar............................passed
+When Kullanici "Bussiness Tour" sekmesinin aktif oldugunu test eder.........passed
+And Sayfayi kapatir.........................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="US1017_Services icerik testi" name="TC07 Health Tour ogesinin aktif oldugunu test edebilmeli" time="10.65">
+<system-out><![CDATA[
+Given Kullanici "trpwayUrl" anasayfaya gider................................passed
+When Services sekmesine tiklar..............................................passed
+When Kullanici "Health Tour" sekmesine tiklar...............................passed
+When Kullanici "Health Tour" sekmesinin aktif oldugunu test eder............passed
+And Sayfayi kapatir.........................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="US1017_Services icerik testi" name="TC08 Religious Tour ogesinin aktif oldugunu test edebilmeli" time="10.294">
+<system-out><![CDATA[
+Given Kullanici "trpwayUrl" anasayfaya gider................................passed
+When Services sekmesine tiklar..............................................passed
+When Kullanici "Religious Tour" sekmesine tiklar............................passed
+When Kullanici "Religious Tour" sekmesinin aktif oldugunu test eder.........passed
 And Sayfayi kapatir.........................................................passed
 ]]></system-out>
 </testcase>
